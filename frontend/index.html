@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bindu Sri Damarla | Portfolio</title>
+    <meta name="description" content="Personal portfolio of Bindu Sri Damarla, a passionate MERN Stack and AI developer." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="loading-screen" id="loadingScreen">
+      <div class="loader-ring"></div>
+      <p>Loading your experience...</p>
+    </div>
+
+    <div class="cursor-glow" id="cursorGlow"></div>
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <header class="header">
+      <nav class="navbar container">
+        <a href="#home" class="logo">Bindu<span>.</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+              <i class="fa-solid fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+        <div class="container hero-grid">
+          <div class="hero-left" data-aos="fade-right">
+            <div class="profile-ring">
+              <div class="profile-placeholder">
+                <img src="images/passphoto.jpg" alt="Bindu Sri Damarla" />
+              </div>
+            </div>
+            <div class="floating-icons">
+              <i class="fa-brands fa-react"></i>
+              <i class="fa-brands fa-js"></i>
+              <i class="fa-solid fa-robot"></i>
+            </div>
+          </div>
+
+          <div class="hero-right" data-aos="fade-left">
+            <p class="eyebrow">Hello,</p>
+            <h1>I'm <span>Bindu Sri Damarla</span></h1>
+            <p class="subline">Computer Science Engineer</p>
+            <p class="subline">MERN Stack Developer</p>
+            <p class="subline">AI & Machine Learning Enthusiast</p>
+            <div class="typing-box">
+              <span class="typing-text"></span>
+              <span class="cursor">|</span>
+            </div>
+            <div class="hero-actions">
+              <a href="resume/resume.pdf" class="btn btn-primary" download>Download Resume</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading" data-aos="fade-up">
+            <p class="eyebrow">About Me</p>
+            <h2>Crafting bold digital experiences with empathy and innovation.</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-content glass-card" data-aos="fade-right">
+              <p>
+                I am Damarla Bindu Sri, a Computer Science undergraduate passionate about building modern web applications and AI-powered solutions. I enjoy developing scalable MERN Stack applications, machine learning projects, and user-friendly interfaces. My goal is to continuously learn emerging technologies and contribute to innovative software solutions.
+              </p>
+            </div>
+            <div class="stats-grid">
+              <div class="stat-card glass-card" data-aos="zoom-in">
+                <h3 class="counter" data-target="8.10">0</h3>
+                <p>CGPA</p>
+              </div>
+              <div class="stat-card glass-card" data-aos="zoom-in" data-aos-delay="100">
+                <h3 class="counter" data-target="3">0</h3>
+                <p>Projects</p>
+              </div>
+              <div class="stat-card glass-card" data-aos="zoom-in" data-aos-delay="200">
+                <h3 class="counter" data-target="12">0</h3>
+                <p>Certifications</p>
+              </div>
+              <div class="stat-card glass-card" data-aos="zoom-in" data-aos-delay="300">
+                <h3 class="counter" data-target="15">0</h3>
+                <p>Technical Skills</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-heading" data-aos="fade-up">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools and technologies I love to build with.</h2>
+          </div>
+          <div class="skills-wrapper">
+            <div class="skill-group glass-card" data-aos="fade-up">
+              <h3>Programming</h3>
+              <div class="skill-list">
+                <div class="skill-item"><span>C</span><div class="progress"><div style="width: 80%"></div></div></div>
+                <div class="skill-item"><span>SQL</span><div class="progress"><div style="width: 85%"></div></div></div>
+                <div class="skill-item"><span>HTML</span><div class="progress"><div style="width: 92%"></div></div></div>
+                <div class="skill-item"><span>CSS</span><div class="progress"><div style="width: 90%"></div></div></div>
+                <div class="skill-item"><span>JavaScript</span><div class="progress"><div style="width: 88%"></div></div></div>
+              </div>
+            </div>
+            <div class="skill-group glass-card" data-aos="fade-up" data-aos-delay="100">
+              <h3>Frameworks</h3>
+              <div class="skill-list">
+                <div class="skill-item"><span>React.js</span><div class="progress"><div style="width: 90%"></div></div></div>
+                <div class="skill-item"><span>React Native</span><div class="progress"><div style="width: 78%"></div></div></div>
+                <div class="skill-item"><span>Node.js</span><div class="progress"><div style="width: 84%"></div></div></div>
+                <div class="skill-item"><span>Express.js</span><div class="progress"><div style="width: 82%"></div></div></div>
+              </div>
+            </div>
+            <div class="skill-group glass-card" data-aos="fade-up" data-aos-delay="200">
+              <h3>Database</h3>
+              <div class="skill-list">
+                <div class="skill-item"><span>MongoDB</span><div class="progress"><div style="width: 88%"></div></div></div>
+                <div class="skill-item"><span>MySQL</span><div class="progress"><div style="width: 84%"></div></div></div>
+              </div>
+            </div>
+            <div class="skill-group glass-card" data-aos="fade-up" data-aos-delay="300">
+              <h3>Tools</h3>
+              <div class="skill-list">
+                <div class="skill-item"><span>GitHub</span><div class="progress"><div style="width: 86%"></div></div></div>
+                <div class="skill-item"><span>VS Code</span><div class="progress"><div style="width: 92%"></div></div></div>
+                <div class="skill-item"><span>Cisco Packet Tracer</span><div class="progress"><div style="width: 79%"></div></div></div>
+              </div>
+            </div>
+            <div class="skill-group glass-card" data-aos="fade-up" data-aos-delay="400">
+              <h3>Concepts</h3>
+              <div class="skill-list">
+                <div class="skill-item"><span>DBMS</span><div class="progress"><div style="width: 87%"></div></div></div>
+                <div class="skill-item"><span>Operating Systems</span><div class="progress"><div style="width: 84%"></div></div></div>
+                <div class="skill-item"><span>Computer Networks</span><div class="progress"><div style="width: 82%"></div></div></div>
+                <div class="skill-item"><span>Data Analytics</span><div class="progress"><div style="width: 80%"></div></div></div>
+                <div class="skill-item"><span>Web Technologies</span><div class="progress"><div style="width: 90%"></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-heading" data-aos="fade-up">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work that blends functionality with elegant design.</h2>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card glass-card" data-aos="fade-up">
+              <div class="project-image project-one"></div>
+              <div class="project-content">
+                <h3>Blocking and Content Management System</h3>
+                <div class="badge-row">
+                  <span>MERN</span><span>MongoDB</span><span>Express</span><span>React</span><span>Node</span><span>AI</span>
+                </div>
+                <p>Developed a MERN Stack application with user authentication, blocking/unblocking features, AI-powered content filtering, secure APIs, and MongoDB database integration.</p>
+                <div class="project-actions">
+                  <a href="#" class="btn btn-small">GitHub</a>
+                  <a href="#" class="btn btn-small btn-secondary">Live Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="project-image project-two"></div>
+              <div class="project-content">
+                <h3>AI Powered IQAC Academic Intelligence Accreditation Monitoring System</h3>
+                <div class="badge-row">
+                  <span>MERN</span><span>JWT</span><span>MongoDB</span><span>Charts</span><span>AI</span>
+                </div>
+                <p>Developed an academic monitoring system with role-based authentication, AI-based risk prediction, dashboards, accreditation management, and PDF/Excel report generation.</p>
+                <div class="project-actions">
+                  <a href="https://github.com/anitha112005/IQAC.git" target="_blank" rel="noreferrer" class="btn btn-small">GitHub</a>
+                  <a href="#" class="btn btn-small btn-secondary">Live Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="project-image project-three"></div>
+              <div class="project-content">
+                <h3>Personalized Mood Based Music Recommendation System</h3>
+                <div class="badge-row">
+                  <span>Python</span><span>OpenCV</span><span>MediaPipe</span><span>Keras</span><span>Streamlit</span><span>Deep Learning</span>
+                </div>
+                <p>Built an AI-based music recommendation system that detects facial emotions in real time and recommends songs according to user mood.</p>
+                <div class="project-actions">
+                  <a href="https://github.com/Bindusri1209/Personalized-Mood-Based-Music-Recommender.git" target="_blank" rel="noreferrer" class="btn btn-small">GitHub</a>
+                  <a href="#" class="btn btn-small btn-secondary">Live Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="project-image project-three"></div>
+              <div class="project-content">
+                <h3>Placement Prediction System</h3>
+                <div class="badge-row">
+                  <span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span>
+                </div>
+                <p>
+                  • Built classifier evaluating academic and skill attributes using Scikit-learn, Pandas, NumPy, and Matplotlib.<br>
+                  • Executed preprocessing, feature engineering, and algorithm comparison.<br>
+                  • Derived trends via visualization for institutional decisions.
+                </p>
+                <div class="project-actions">
+                  <a href="https://github.com/Bindusri1209/Placement-prediction-system.git" target="_blank" rel="noreferrer" class="btn btn-small">GitHub</a>
+                  <a href="#" class="btn btn-small btn-secondary">Live Demo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="container">
+          <div class="section-heading" data-aos="fade-up">
+            <p class="eyebrow">Education</p>
+            <h2>A journey of learning, growth, and curiosity.</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item glass-card" data-aos="fade-right">
+              <div class="timeline-dot"></div>
+              <h3>B.Tech</h3>
+              <p class="institution">Vignan Foundation for Science Technology and Research</p>
+              <p>2023 - 2027</p>
+              <p>CGPA 8.10</p>
+            </div>
+            <div class="timeline-item glass-card" data-aos="fade-left">
+              <div class="timeline-dot"></div>
+              <h3>Intermediate</h3>
+              <p class="institution">Narayana Junior College</p>
+              <p>2021 - 2023</p>
+              <p>86.7%</p>
+            </div>
+            <div class="timeline-item glass-card" data-aos="fade-right">
+              <div class="timeline-dot"></div>
+              <h3>SSC</h3>
+              <p class="institution">Sri Phanindra Vidya Niketan</p>
+              <p>2020 - 2021</p>
+              <p>9.8 GPA</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="certificates">
+        <div class="container">
+          <div class="section-heading" data-aos="fade-up">
+            <p class="eyebrow">Certificates</p>
+            <h2>Recognitions that reflect my dedication and curiosity.</h2>
+          </div>
+          <div class="cert-grid">
+            <div class="cert-card glass-card" data-aos="zoom-in"><h3>Cambridge PET</h3></div>
+            <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="50"><h3>SAP Certificate</h3></div>
+            <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="100"><h3>NPTEL Principles of Management</h3></div>
+            <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="150"><h3>NPTEL Management Information Systems</h3></div>
+            <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="200"><h3>NPTEL Public Speaking</h3></div>
+            <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="250"><h3>NextWave</h3></div>
+            <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="300"><h3>CISCO Introduction to Cybersecurity</h3></div>
+            <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="350"><h3>CISCO Cybersecurity Essentials</h3></div>
+            <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="400"><h3>CISCO Networking Essentials</h3></div>
+            <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="450"><h3>Packet Tracer</h3></div>
+            <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="500"><h3>Data Science Essentials with Python</h3></div>
+            <div class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="550"><h3>Hackathon</h3></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="resume">
+        <div class="container">
+          <div class="resume-card glass-card" data-aos="fade-up">
+            <p class="eyebrow">Resume</p>
+            <h2>My professional story in one document.</h2>
+            <p>Download my latest resume to explore my education, projects, skills, and achievements.</p>
+            <a href="resume/resume.pdf" class="btn btn-primary" download>Download Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-info glass-card" data-aos="fade-right">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something meaningful together.</h2>
+            <ul>
+              <li><i class="fa-solid fa-user"></i> Bindu Sri Damarla</li>
+              <li><i class="fa-solid fa-location-dot"></i> Guntur, Andhra Pradesh</li>
+              <li><i class="fa-solid fa-envelope"></i> bindusri264@gmail.com</li>
+              <li><i class="fa-solid fa-phone"></i> +91 8317654922</li>
+            </ul>
+            <div class="social-links">
+              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <form class="contact-form glass-card" data-aos="fade-left">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" placeholder="Subject" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-content">
+        <p>Designed & Developed by <span>Bindu Sri Damarla</span></p>
+        <p>© 2026 All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
